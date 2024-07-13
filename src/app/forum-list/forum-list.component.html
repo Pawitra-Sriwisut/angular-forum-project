@@ -1,0 +1,25 @@
+<h1 class="mb-3">MAQE Forum</h1>
+<div class="mb-2">
+    <span>Your current timezone is: Asia/Bangkok</span>
+</div>
+
+<div *ngFor="let forum of formList" class="forum-list mb-2">
+    <div class="forum-list-header">
+        <img class="image-avatar" src={{forum.avatar_url}} width="30" height="30">
+        <div class="ml-2">
+            <span class="name-author">{{forum.name}} </span>
+            <span class="created-display">{{forum.createdDisplay}}</span>
+        </div>
+    </div>
+    <hr>
+    <div class="forum-list-content">
+        <div>
+            <img src={{forum.image_url}} width="280" height="200">
+        </div>
+        <div class="detail-content">
+            <div class="title-content">{{forum.title}}</div>
+            <br>
+            <div class="content-body">{{forum.body}}</div>
+        </div>
+    </div>
+</div>

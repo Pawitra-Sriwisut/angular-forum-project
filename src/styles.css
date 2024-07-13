@@ -1,1 +1,80 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+  background-color: #f0ecec;
+}
+
+.layout {
+  padding: 0 60px 0 60px;
+}
+
+.forum-list {
+  box-shadow: -1px 5px 5px 0px rgba(150, 150, 150, 0.75);
+}
+
+.forum-list:nth-of-type(odd) {
+  background-color: #cdebf8;
+}
+
+.forum-list:nth-of-type(even) {
+  background-color: #fff;
+}
+
+.forum-list-header {
+  display: flex;
+  align-items: center;
+  padding: 7px 0px 0px 7px;
+}
+
+.forum-list-content {
+  display: flex;
+  padding: 7px 15px 14px 15px;
+}
+
+.detail-content {
+  margin-left: 14px;
+}
+
+.content-body {
+  margin-top: -7px;
+}
+
+.image-avatar {
+  border-radius: 20px;
+}
+
+.name-author {
+  color: #f6592c;
+}
+
+.ml-2 {
+  margin-left: 14px;
+}
+
+.mt-2 {
+  margin-top: 14px;
+}
+
+.mb-2 {
+  margin-bottom: 14px;
+}
+
+.mb-3 {
+  margin-bottom: 21px;
+}
+
+.title-content {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #d2d2d2;
+  opacity: 0.5;
+}
+
+.created-display {
+  color: #878d93;
+}
